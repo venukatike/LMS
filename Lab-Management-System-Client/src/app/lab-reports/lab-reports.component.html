@@ -1,0 +1,39 @@
+<app-navbar></app-navbar>
+<!-- <h1 *ngFor="let arr of patientsData">
+    {{arr.patientID}}
+</h1> -->
+
+<div class="container">
+    
+    <table class="table">
+      <thead>
+        <tr>
+        <h2>Lab Reports</h2>
+        <button class="btn btn-primary" routerLink="/AddLabReport">Create New Lab Report</button>
+        </tr>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Test Type</th>
+          <th>Enter Date</th>
+          <th>Date of Test</th>
+          <th>Results</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let patient of patientsData">
+          <td>{{ patient.reportID }}</td>
+          <td>{{ patient.patientName }}</td>
+          <td>{{ patient.testType }}</td>
+          <td>{{ patient.enteredTime }}</td>
+          <td>{{ patient.timeofTest }}</td>
+          <td>{{ patient.results }}</td>
+          <td>
+            <button class="btn btn-primary mr-4 " routerLink="/AddLabReport/{{patient.reportID}}/edit">Edit</button>
+            <button class="btn btn-danger ml-2" (click)="DeleteLabReport(patient.reportID)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

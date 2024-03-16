@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bbwhwKO7vRF5Pfv52ooqMauJHS7dIAtgN0lZ1rhyCyyRo5Lx/F6d2ukN7l+03IyOpofDciTYmqaW3ySA0PtQMg==",
+  "dgSpecHash": "swuGxFHc9S61HwZr6/YeWTl6u0tRxrDGiRtc4wtWlQKkjcjrncmEeg5h18qb1g/rMllNhBeNTArRXJIeHQ4ppg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\venu\\Desktop\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\venu\\Desktop\\New folder\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\venu\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\venu\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

@@ -2472,11 +2472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\venu\\Desktop\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\venu\\Desktop\\New folder\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj",
       "projectName": "LabManagementSystem",
-      "projectPath": "C:\\Users\\venu\\Desktop\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj",
+      "projectPath": "C:\\Users\\venu\\Desktop\\New folder\\LabManagementSystem\\LabManagementSystem\\LabManagementSystem.csproj",
       "packagesPath": "C:\\Users\\venu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\venu\\Desktop\\LabManagementSystem\\LabManagementSystem\\obj\\",
+      "outputPath": "C:\\Users\\venu\\Desktop\\New folder\\LabManagementSystem\\LabManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2491,7 +2491,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2504,6 +2503,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2554,7 +2558,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

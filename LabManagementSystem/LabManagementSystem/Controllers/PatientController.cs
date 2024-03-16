@@ -148,3 +148,4 @@ namespace LabManagementSystem.Controllers
         }
     }
 }
+//patient
